@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    color: #fff;
+    font-size: 24px;
+}
+
+.messageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.message {
+    color: #fff;
+}
+
+.time {
+    color: #fff;
+    opacity: 0.5;
+}
