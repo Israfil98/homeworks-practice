@@ -10,7 +10,7 @@ type AffairsPropsType = {
 
 function Affairs(props: AffairsPropsType) {
     const mappedAffairs = props.data.map((a: AffairType) => (
-        <Affair // should work
+        <Affair
             key={ a._id } // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
             affair={ a }
             deleteAffairCallback={ props.deleteAffairCallback }
